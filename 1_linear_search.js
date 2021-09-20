@@ -12,5 +12,9 @@ function linearSearch(array, item) {
   return null;
 }
 
-console.log(linearSearch(array, 8));
+const linearSearchShort = (array, item) => {
+  array.forEach((e) => e === item && console.log(e));
+};
+
+console.log(linearSearch(array, 2));
 console.log(`count: ${count}`);
